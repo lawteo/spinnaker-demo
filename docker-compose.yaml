@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  lawteoapp1:
+    image: lawteoapp:v1
+    build: .
+    container_name: lawteoV1
+    ports:
+      - "1234:80"
